@@ -1,0 +1,175 @@
+.img-home{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+     
+ }
+ 
+ h2 {
+    padding: 0px;
+    margin: 0px;
+}
+ label {
+    float: right;
+    width: 100%;;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input, textArea{  /* An attribute selector */
+    
+    margin-left: 0.5em;    
+    margin-bottom: 0.8em;
+    width: auto; 
+    padding: 1em 9em;
+    
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 2px solid #74AFAD;
+}
+
+.content{
+     position: absolute;
+    top: 50%;
+    left: 46%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+.content td label{
+     text-align: right;
+}
+.content-wrapper{
+     position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+.align-form{
+     
+   margin: 0;
+    padding: 0;
+
+}
+.container{
+    text-align: left;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+.link-wrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+     font-size: 17px;
+}
+.link-back{
+    background-color: lightgrey;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 24px;
+}
+.link-back a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper{
+    float:right;
+    text-align: left;
+    width: 77%;
+    margin-top:2%;
+}
+tr.tb-head {
+ background-color: black;
+  padding: 0.5rem;
+  color: white;
+  padding: 2px;
+}
+form td {
+    padding: 4px;
+}
+.odd,.even{
+    text-align: center;
+   
+}
+.odd{
+    background-color: grey;
+}
+.even{
+    background-color: lightgrey;
+}
+
+.table-body td,.tb-head th{
+    padding: 20px 20px 15px 31px;
+    height: 20px;
+}
+td img{
+    width: 40px;
+    height: 41px;
+
+}
+.participate {
+    font-size: 14px;
+    box-shadow: inset 0px -1px 3px 0px #808080;
+    color: white;
+    text-decoration: none;
+    background: #88B2C7;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 6px 23px;
+}
+.tree-con{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+.tree-con img{
+    float:left;
+}
+
+.que {
+    position: absolute;
+    top: 50%;
+    
+    left: 112%;
+    width: 177%;
+}
+.que table{
+    border-spacing: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: table;
+    table-layout: fixed;
+}
+ul .menu-li {
+    box-shadow: inset 0px -1px 3px 0px #808080;
+    display: table-cell;
+    border: 2px solid #74AFAD;
+    padding: 5px;
+    background-color: #D9853B;
+    border-radius: 8px;
+    text-align: center;
+}
+ul .menu-li a {
+     text-decoration: none;
+      display: inline;
+    padding:4px 11px 4px 11px;
+    display: block;
+     color: white;
+}
+.name{
+        padding: 5px;
+}
+.active{
+    border-bottom:3px #ECECEA solid;
+}
+.hidden td{
+    padding: 0;
+    margin:0;
+    height:0;
+}
